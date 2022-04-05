@@ -90,3 +90,6 @@ dnf install -y kubeadm-1.17.0 kubelet-1.17.0 kubectl-1.17.0`
 ```
 kubeadm init --pod-network-cidr=192.168.0.0/16
 ```
+```
+sudo curl -L -o /etc/yum.repos.d/devel:kubic:libcontainers:stable.repo https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/CentOS_8/devel:kubic:libcontainers:stable.repo
+```
