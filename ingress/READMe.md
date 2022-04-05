@@ -28,4 +28,20 @@ spec:
     servicePort: <Port Number>
 ```
 
+## ingres controllere list
 
+https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/#additional-controllers
+
+```
+AKS Application Gateway Ingress Controller is an ingress controller that configures the Azure Application Gateway.
+Ambassador API Gateway is an Envoy-based ingress controller.
+Contour is an Envoy based ingress controller.
+HAProxy Ingress is an ingress controller for HAProxy.
+Istio Ingress is an Istio based ingress controller.
+The Kong Ingress Controller for Kubernetes is an ingress controller driving Kong Gateway.
+The NGINX Ingress Controller for Kubernetes works with the NGINX webserver (as a proxy).
+The Pomerium Ingress Controller is based on Pomerium, which offers context-aware access policy.
+Skipper HTTP router and reverse proxy for service composition, including use cases like Kubernetes Ingress, designed as a library to build your custom proxy.
+The Traefik Kubernetes Ingress provider is an ingress controller for the Traefik proxy.
+Voyager is an ingress controller for HAProxy.
+```
