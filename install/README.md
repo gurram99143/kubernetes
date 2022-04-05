@@ -78,6 +78,7 @@ sudo yum install -y kubelet kubeadm kubectl --disableexcludes=kubernetes
 
 ```
 sudo systemctl enable --now kubelet
+echo 'KUBELET_EXTRA_ARGS="--fail-swap-on=false"' > /etc/sysconfig/kubelet
 sudo systemctl start kubelet
 ```
 ```
