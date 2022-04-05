@@ -45,3 +45,15 @@ Skipper HTTP router and reverse proxy for service composition, including use cas
 The Traefik Kubernetes Ingress provider is an ingress controller for the Traefik proxy.
 Voyager is an ingress controller for HAProxy.
 ```
+
+
+```
+Supported protocols                         Graphical user interface (Web UI)
+Based on (underlying software)              JWT validation
+Traffic routing                             Customization of configuration
+Namespace limitations                       Basic DDOS protection mechanisms
+Upstream probes                             Requests tracing
+Load balancing algorithms                   WAF
+Authentication                              Paid subscription
+Traffic distribution
+```
