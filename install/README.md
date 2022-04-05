@@ -83,4 +83,6 @@ sudo systemctl start kubelet
 ```
 kubeadm init
 ```
-
+```
+dnf install -y kubeadm-1.17.0 kubelet-1.17.0 kubectl-1.17.0`
+```
