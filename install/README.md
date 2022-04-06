@@ -1,4 +1,5 @@
 * sudo swapoff -a
+* https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
 
 * sudo sed -i 's/^SELINUX=enforcing$/SELINUX=permissive/' /etc/selinux/config
 
