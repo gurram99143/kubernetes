@@ -4,6 +4,8 @@ overlay
 br_netfilter
 EOF
 
+
+
 sudo modprobe overlay
 sudo modprobe br_netfilter
 
@@ -27,3 +29,4 @@ sudo sysctl --system
 
 sudo yum install docker-ce docker-ce-cli containerd.io
     
+kubeadm init --ignore-preflight-errors=all
