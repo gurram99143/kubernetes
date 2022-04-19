@@ -27,3 +27,11 @@ sudo tar --no-overwrite-dir -C / -xzf cri-containerd-cni-1.6.1-linux-amd64.tar.g
 sudo systemctl daemon-reload
 sudo systemctl enable --now containerd
 ```
+
+
+### minikube start
+
+```
+minikube start --driver=docker --container-runtime=containerd
+The --container-runtime flag must be set to “containerd” or “cri-o”.
+```
